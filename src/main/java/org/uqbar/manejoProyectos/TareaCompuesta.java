@@ -7,7 +7,6 @@ public class TareaCompuesta extends Tarea {
     ArrayList<Tarea> subtareas = new ArrayList<Tarea>();
 
     public double getCosto() {
-        double costo = 0d;
         if (this.complejidad == 1) {
             costo = this.tiempo * 25;
         }

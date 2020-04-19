@@ -31,7 +31,6 @@ public abstract class Tarea {
 
     // long method
     public double getCosto() {
-        double costo = 0d;
         if (this.complejidad == 1) {
             costo = this.tiempo * 25;
         }
